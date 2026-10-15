@@ -1,0 +1,28 @@
+{
+  "owner": "Owner",
+  "root": "",
+  "github_user": "",
+  "groups": [
+    { "id": "sales", "label": "Sales", "hue": 200, "blurb": "Everything that turns a lead into a signed job." },
+    { "id": "marketing", "label": "Marketing", "hue": 230, "blurb": "Everything that brings leads in." },
+    { "id": "ops", "label": "Operations", "hue": 260, "blurb": "Delivery, crews, money." },
+    { "id": "infra", "label": "Connections", "hue": 190, "blurb": "Services the business runs on." }
+  ],
+  "tools": [
+    { "id": "website", "name": "Website", "group": "marketing", "tagline": "The public site and quote form.", "folder": "demo/website", "entry": "", "live": "", "repo": "", "hosting": "Any static host.", "colors": ["#0C0E0D", "#5fd4ff"], "notes": ["Point live at your domain.", "Add a serve block to launch it locally."], "links": [] },
+    { "id": "lead-intake", "name": "Lead Intake", "group": "marketing", "tagline": "Every form, call and chat lands in one inbox.", "folder": "demo/lead-intake", "entry": "", "live": "", "repo": "", "hosting": "", "colors": [], "notes": [], "links": [] },
+    { "id": "reviews", "name": "Review Engine", "group": "marketing", "tagline": "Asks every happy customer for a review.", "folder": "demo/reviews", "entry": "", "live": "", "repo": "", "hosting": "", "colors": [], "notes": [], "links": [] },
+    { "id": "planner", "name": "Sales Planner", "group": "sales", "tagline": "Good, better, best options in the living room.", "folder": "demo/planner", "entry": "", "live": "", "repo": "", "hosting": "", "colors": [], "notes": [], "links": [] },
+    { "id": "pipeline", "name": "Pipeline", "group": "sales", "tagline": "Every open deal and its next step.", "folder": "demo/pipeline", "entry": "", "live": "", "repo": "", "hosting": "", "colors": [], "notes": [], "links": [] },
+    { "id": "commissions", "name": "Commissions", "group": "sales", "tagline": "Reps see exactly what they earned.", "folder": "demo/commissions", "entry": "", "live": "", "repo": "", "hosting": "", "colors": [], "notes": [], "links": [] },
+    { "id": "job-costing", "name": "Job Costing", "group": "ops", "tagline": "Profit per job, cost per lead, close rate.", "folder": "demo/job-costing", "entry": "", "live": "", "repo": "", "hosting": "", "colors": [], "notes": [], "links": [] },
+    { "id": "scheduling", "name": "Scheduling", "group": "ops", "tagline": "Crews, installs and inspections on one board.", "folder": "demo/scheduling", "entry": "", "live": "", "repo": "", "hosting": "", "colors": [], "notes": [], "links": [] }
+  ],
+  "connections": [
+    { "id": "crm", "name": "CRM", "detail": "Contacts and pipeline", "url": "", "kind": "crm" },
+    { "id": "payments", "name": "Payments", "detail": "Invoices and deposits", "url": "", "kind": "money" },
+    { "id": "calendar", "name": "Calendar", "detail": "Appointments", "url": "", "kind": "time" },
+    { "id": "ads", "name": "Ads", "detail": "Paid lead sources", "url": "", "kind": "marketing" },
+    { "id": "ai", "name": "AI agent", "detail": "Set the provider in settings", "url": "", "kind": "ai" }
+  ]
+}

@@ -1,0 +1,14 @@
+# personal / generated
+calendar.json
+.logs/
+dist/
+*.bak*
+.DS_Store
+# parked experiment
+orb.js
+# the owner's private data: never in a public repo (fresh clones use sample/)
+/registry.json
+/missions.json
+/brand.json
+/GROK.md
+/.leakwords
